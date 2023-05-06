@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ground
+  - Obstacle
+  - Target
+  - Stone
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - background
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: button
+    uniqueID: 4147630221
+    locked: 0
+  - name: background
+    uniqueID: 2465176037
+    locked: 0
+  - name: New Layer 3
+    uniqueID: 2990746649
+    locked: 0
+  - name: New Layer 4
+    uniqueID: 4122859413
+    locked: 0
+  - name: New Layer 5
+    uniqueID: 2644369639
+    locked: 0
+  - name: New Layer 6
+    uniqueID: 3668104115
+    locked: 0
