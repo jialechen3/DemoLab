@@ -7,7 +7,7 @@ using TMPro;
 
 public class ScoreKeeper : MonoBehaviour
 {
-    [SerializeField] int score = PersistentData.Instance.GetScore();
+    int score = 10;
     const int DEFAULT_POINTS = 1;
     [SerializeField] TMP_Text scoreTxt;
     //[SerializeField] TMP_Text bulletTxt;
@@ -31,6 +31,9 @@ public class ScoreKeeper : MonoBehaviour
     void Update()
     {
         score = PersistentData.Instance.GetScore();
+        if (score == 0) {
+            SceneManager.LoadScene("LoseScene");
+        }
         
     }
 

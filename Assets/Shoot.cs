@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class Shoot : MonoBehaviour
 {
@@ -19,7 +20,7 @@ public class Shoot : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E)) {
             controller.GetComponent<ScoreKeeper>().DeductPoints();
-            //AudioSource.PlayClipAtPoint(audio.clip, transform.position);
+            AudioSource.PlayClipAtPoint(audio.clip, transform.position);
             Instantiate(bullet, shootingPoint.position, transform.rotation);
         }
     }
