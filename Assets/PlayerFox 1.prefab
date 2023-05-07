@@ -30,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 615948273946477318}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -9.46, y: -1.43, z: 0}
-  m_LocalScale: {x: 10.346554, y: 10.857415, z: 10.346554}
+  m_LocalScale: {x: 6.5056024, y: 6.826817, z: 6.5056024}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 615948274038485143}
@@ -223,7 +223,7 @@ MonoBehaviour:
   shootingPoint: {fileID: 615948274038485143}
   bullet: {fileID: 3508325722132485312, guid: 96054fdb81ebb57489ca97ced5131a91, type: 3}
   audio: {fileID: 4909005858728278522}
-  controller: {fileID: 0}
+  controller: {fileID: 6555358256941211097, guid: 5131f6dcc87e4a747a6181464731790e, type: 3}
 --- !u!82 &4909005858728278522
 AudioSource:
   m_ObjectHideFlags: 0
